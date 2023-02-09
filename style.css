@@ -14,50 +14,66 @@
 	--grayish-blue: hsl(220, 15%, 55%);
 	--color-dark-blue: hsl(218, 44%, 22%);
 
-	--drop-shadow: 0 0 10px 0 hsl(220, 15%, 55%, 0.1);
+	--drop-shadow: 0 1rem 2rem 0 hsl(220, 15%, 55%, 0.2);
 }
 
 html, body {
-		margin: 0;
-		padding: 0;
-		font-family: 'Outfit', 'Open Sans', sans-serif;
-		font-size: var(--font-size);
-		color: var(--grayish-blue);
-		background-color: var(--grayish-blue);
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Outfit', 'Open Sans', sans-serif;
+	font-size: var(--font-size);
+	color: var(--grayish-blue);
+	background-color: var(--light-gray);
+}
+
+h2, p {
+	text-align: center;
+	max-width: 250px;
+	margin: 0;
 }
 
 h2 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: var(--font-bold);
+	color: var(--color-dark-blue);
+	padding-top: 0.8rem;
 }
 
 p {
 	font-size: 1rem;
 	font-weight: var(--font-regular);
+	padding-bottom: 1.4rem;
 }
 
-#container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.card {
+#container, .card {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	height: 100%;
+}
+
+.card {
 	gap: 1rem;
 	background-color: var(--white);
-	border-radius: 10px;
+	border-radius: 1.4rem;
 	padding: 1rem;
 	margin: 1rem;
 	box-shadow: var(--drop-shadow);
 }
 
-@media screen and (max-width: 375px) {
-	
+.imageContainer {
+	display: flex;
+	justify-content: center;
 }
 
-@media screen and (max-width: 1440px) {
-	
+.imageContainer img {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 0.8rem;
 }
