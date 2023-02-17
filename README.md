@@ -2,6 +2,10 @@
 
 # QR code component solution
 
+## [QR code component](https://erictakman.github.io/qr-code-component/)
+
+## Overview
+
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## My process
@@ -20,6 +24,7 @@ From there I started with the HTML and added the basic structure of the page, an
 
 ## Author
 
+- Website - [QR code component](https://erictakman.github.io/qr-code-component/)
 - Frontend Mentor - [@erictakman](https://www.frontendmentor.io/profile/erictakman)
 - Twitter - [@EricTakman](https://www.twitter.com/EricTakman)
 
