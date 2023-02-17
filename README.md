@@ -4,15 +4,11 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
----
-
 ## My process
 
 Started out with the stylesheet and added all the requested colors, fonts, and sizes, and putting some of these into css variables.
 
 From there I started with the HTML and added the basic structure of the page, and then added the QR code image and the text.
-
----
 
 ### Built with
 
@@ -22,14 +18,10 @@ From there I started with the HTML and added the basic structure of the page, an
 - Desktop-first workflow
 - Github copilot for quick workflow 😅
 
----
-
 ## Author
 
 - Frontend Mentor - [@erictakman](https://www.frontendmentor.io/profile/erictakman)
 - Twitter - [@EricTakman](https://www.twitter.com/EricTakman)
-
----
 
 ## Acknowledgments
 
